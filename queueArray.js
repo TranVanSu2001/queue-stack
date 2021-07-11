@@ -40,4 +40,4 @@ queue.dequeue()
 console.log('first element:' ,queue.peek())
 console.log('length:' ,queue.length());
 
-console.log(queue)
+console.log(queue) 
