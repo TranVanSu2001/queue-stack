@@ -14,7 +14,7 @@ class queueObject {
   }
 
   dequeue() {
-    if(this.tailIndex = this.headIndex) {
+    if(this.tailIndex == this.headIndex) {
       console.log('This is empty') // nếu không có phần tử nào thì báo trống
     } else {
       const item = this.items[this.headIndex];
