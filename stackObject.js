@@ -33,7 +33,7 @@ class stackObject {
   }
   
   isEmpty() {
-    if( this.tailIndex = this.headIndex) {
+    if( this.tailIndex === this.headIndex) {
       return true;
     } else {
       return false;
